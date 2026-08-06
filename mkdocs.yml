@@ -1,0 +1,48 @@
+site_name: Praxis-Wiki
+site_description: Internes Praxismanagement-Handbuch der Gemeinschaftspraxis Dres. Eckert
+site_author: Gemeinschaftspraxis Dres. Eckert
+site_url: http://handbuch.intern/
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: de
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Start: index.md
+  - Leistungsblätter:
+      - Übersicht: leistungsblaetter/index.md
+  - GOÄ und Honorar:
+      - Übersicht: goae/index.md
+  - Qualitätsmanagement:
+      - Übersicht: qm/index.md
+  - Notfallmanagement:
+      - Übersicht: notfall/index.md
+
+extra:
+  generator: false
+
+copyright: Gemeinschaftspraxis Dres. Eckert · Am Ringpark 1A · 01640 Coswig
