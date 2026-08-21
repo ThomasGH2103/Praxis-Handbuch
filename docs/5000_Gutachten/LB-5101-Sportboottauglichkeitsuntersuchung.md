@@ -32,8 +32,9 @@ updated: 2026-08-21
 | Arzt erforderlich | Ja |
 | MFA beteiligt | Ja |
 | GOÄ-Abrechnung | Ja |
-| Zielhonorar | 75,00 € |
-| Zahlung | unmittelbar nach Abschluss |
+| Regelhonorar | 75,00 € |
+| Zahlung | unmittelbar nach Abschluss vor Ort |
+| Zahlungsarten | Barzahlung oder Kartenzahlung |
 
 ---
 
@@ -61,6 +62,8 @@ Ergebnis der medizinischen Tauglichkeitsuntersuchung.
 
 ## Organisatorische Voraussetzungen
 
+## Organisatorische Voraussetzungen
+
 Vor Beginn der Untersuchung müssen folgende Voraussetzungen erfüllt sein:
 
 - Termin vereinbart
@@ -68,8 +71,10 @@ Vor Beginn der Untersuchung müssen folgende Voraussetzungen erfüllt sein:
 - Patient im Praxisverwaltungssystem (PVS) angelegt
 - Stammdaten vollständig
 - Datenschutz erfolgt
-- Honorarvereinbarung unterschrieben
-- Untersuchungsformular liegt vor
+- FO-5101 – Anamnesebogen vollständig ausgefüllt
+- Kosteninformation durch die MFA vor Untersuchungsbeginn erfolgt
+- FO-5103 – Kostenübernahmevereinbarung vor Untersuchungsbeginn unterschrieben
+- FO-5102 – Ärztlicher Tauglichkeitsnachweis liegt zur Bearbeitung vor
 
 ## Medizinische Voraussetzungen
 
@@ -121,6 +126,7 @@ Inhalte:
 - Durchführung der vorgesehenen Voruntersuchungen
 - Durchführung der Hörprüfung, sofern kein ausreichender externer
   Nachweis vorliegt
+- Erneuter Kostenhinweis vor Untersuchungsbeginn
 
 #### Termin 2 – Ärztliche Untersuchung
 
@@ -153,14 +159,16 @@ Bei getrennten Terminen ist sicherzustellen, dass sämtliche erforderlichen
 Voruntersuchungen, Nachweise und Unterlagen dem Arzt vor Beginn der
 abschließenden Untersuchung vorliegen.
 
-## Patienteninformation
+## Patienteninformation bei Terminvereinbarung
 
 Bereits bei der Terminvereinbarung wird der Patient informiert über:
 
 - Dauer der Untersuchung
 - Ablauf der Untersuchung
 - Kosten von 75,00 € bei regelhaftem Untersuchungsablauf
-- Zahlungsmodalitäten
+- Privatärztlichen Charakter der Leistung
+- Zahlung unmittelbar nach Abschluss der Untersuchung vor Ort
+- Möglichkeit der Bar- oder Kartenzahlung
 - Erforderliche Unterlagen
 - Erforderliche Nachweise über Seh- und Hörvermögen
 
@@ -198,7 +206,7 @@ Unterlagen mit:
 
 # 4. Patientenaufnahme
 
-**Verantwortlich:** Anmeldung
+**Verantwortlich:** Anmeldung / MFA
 
 ## Patientenidentifikation
 
@@ -212,14 +220,37 @@ gültigen Personalausweises oder Reisepasses zu prüfen.
 - Stammdaten auf Vollständigkeit und Aktualität prüfen.
 - Kontaktdaten auf Aktualität prüfen.
 
-## Vertragsunterlagen
+## Vertrags- und Verwaltungsunterlagen
 
-Soweit erforderlich:
+Vor Beginn der Untersuchung sind zu prüfen:
 
-- Datenschutz
-- Behandlungsvertrag
-- Honorarvereinbarung
-- Erforderliche Einwilligungen
+- Datenschutz erfolgt
+- FO-5101 – Anamnesebogen vollständig ausgefüllt
+- FO-5103 – Kostenübernahmevereinbarung unterschrieben
+- FO-5102 – Ärztlicher Tauglichkeitsnachweis vorhanden
+
+Die unterschriebene Kostenübernahmevereinbarung wird der Patientenakte
+zugeordnet.
+
+## Kosteninformation vor Untersuchungsbeginn
+
+Vor Beginn der Untersuchung weist die MFA den Patienten nochmals auf die
+Kosten der Sportboottauglichkeitsuntersuchung hin.
+
+Das Honorar für die regelhafte Sportboottauglichkeitsuntersuchung beträgt
+**75,00 €**.
+
+Die MFA stellt vor Untersuchungsbeginn sicher, dass:
+
+- der Patient über die Kosten von 75,00 € informiert wurde,
+- dem Patienten bekannt ist, dass es sich um eine privatärztliche Leistung handelt,
+- dem Patienten bekannt ist, dass die Zahlung unmittelbar nach Abschluss
+  der Untersuchung vor Ort erfolgt,
+- dem Patienten die möglichen Zahlungsarten Barzahlung und Kartenzahlung
+  bekannt sind.
+
+Bei Rückfragen zu Kosten oder Abrechnung erfolgt die Klärung vor Beginn
+der Untersuchung.
 
 ## Medizinische Unterlagen
 
@@ -565,8 +596,7 @@ Die Beratung ist in der Patientenakte zu dokumentieren.
 ## GOÄ-Nr. 8 – Ganzkörperstatus
 
 GOÄ-Nr. 8 wird nur angesetzt, wenn der vollständige Ganzkörperstatus
-entsprechend der Leistungslegende tatsächlich erhoben und dokumentiert
-wurde.
+entsprechend der Leistungslegende tatsächlich erhoben und dokumentiert wurde.
 
 Der Ganzkörperstatus umfasst insbesondere:
 
@@ -597,20 +627,42 @@ Zusätzliche diagnostische oder therapeutische Leistungen werden nur
 berechnet, wenn sie tatsächlich erbracht und nach GOÄ gesondert
 berechnungsfähig sind.
 
-!!! warning "Vor Freigabe prüfen"
+---
 
-    Die endgültige gebührenrechtliche Prüfung der Kombination GOÄ 1,
-    GOÄ 8 und GOÄ 70 sowie der verwendeten Steigerungsfaktoren ist vor
-    Freigabe der Version 1.0 abzuschließen.
+# 9. Zahlung
+
+## Praxisstandard
+
+Die Zahlung des Rechnungsbetrages von **75,00 €** erfolgt unmittelbar nach
+Abschluss der Sportboottauglichkeitsuntersuchung vor Ort in der Praxis.
+
+Akzeptierte Zahlungsarten:
+
+- Barzahlung
+- Kartenzahlung
+
+## Ablauf nach Abschluss der Untersuchung
+
+1. Ärztliche Dokumentation abschließen.
+2. Tauglichkeitsentscheidung dokumentieren.
+3. Tauglichkeitsnachweis vollständig ausfüllen.
+4. Rechnung über 75,00 € erstellen.
+5. Zahlung unmittelbar vor Ort entgegennehmen.
+6. Zahlung im Praxisverwaltungssystem dokumentieren.
+7. Tauglichkeitsnachweis dem Patienten aushändigen.
+8. Kopie des Tauglichkeitsnachweises digital archivieren.
+
+Eine spätere Rechnungszahlung ist im regelhaften Ablauf nicht vorgesehen.
 
 ---
 
-# 9. Qualitätsstandard
+# 10. Qualitätsstandard
 
 Die Leistung gilt als vollständig erbracht, wenn:
 
 - Patient eindeutig identifiziert wurde.
-- Stammdaten und erforderliche Vertragsunterlagen vollständig sind.
+- Stammdaten und erforderliche Verwaltungsunterlagen vollständig sind.
+- Patient vor Untersuchungsbeginn über die Kosten informiert wurde.
 - Medizinische Voraussetzungen geprüft wurden.
 - Erforderliche Unterlagen und Nachweise geprüft wurden.
 - MFA-Voruntersuchungen durchgeführt und dokumentiert wurden.
@@ -623,13 +675,14 @@ Die Leistung gilt als vollständig erbracht, wenn:
 - Tauglichkeitsentscheidung getroffen wurde.
 - Gegebenenfalls Befristungen oder Beschränkungen dokumentiert wurden.
 - Tauglichkeitsnachweis vollständig ausgefüllt wurde.
-- Original dem Patienten ausgehändigt wurde.
+- Rechnung erstellt wurde.
+- Zahlung unmittelbar vor Ort erfolgt und dokumentiert wurde.
+- Original des Tauglichkeitsnachweises dem Patienten ausgehändigt wurde.
 - Kopie in der Patientenakte archiviert wurde.
-- Abrechnung abgeschlossen wurde.
 
 ---
 
-# 10. Ärztliche Merkhinweise
+# 11. Ärztliche Merkhinweise
 
 !!! tip "Ärztliche Merkhinweise"
 
@@ -660,13 +713,14 @@ Die Leistung gilt als vollständig erbracht, wenn:
 
 ---
 
-# 11. Besondere Aufmerksamkeit
+# 12. Besondere Aufmerksamkeit
 
 Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 
 - Kein ausreichender Nachweis über das Sehvermögen vorhanden
 - Hörprüfung noch nicht erfolgt
 - Patient erscheint ohne gültiges Ausweisdokument
+- Kosteninformation vor Untersuchungsbeginn nicht erfolgt
 - Medikamentenplan ist unvollständig
 - Relevante Vorerkrankungen werden erst während der Untersuchung angegeben
 - Medizinische Angaben und Vorbefunde sind widersprüchlich
@@ -676,10 +730,18 @@ Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 - Kopie des ausgestellten Nachweises wird nicht digital archiviert
 - Ganzkörperstatus wird nicht vollständig dokumentiert
 - Beratung wird nicht dokumentiert
+- Zahlung wird nicht unmittelbar abgeschlossen oder nicht dokumentiert
 
 ---
 
-# 12. Verweise
+# 13. Verweise
+
+## Fachliche Grundlage
+
+- PI-5101 – Medizinische Tauglichkeitskriterien bei Gesundheitsstörungen
+- Anlage 2 der Sportbootführerscheinverordnung
+
+# 13. Verweise
 
 ## Fachliche Grundlage
 
@@ -688,13 +750,14 @@ Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 
 ## Formulare
 
+- FO-5101 – Anamnesebogen Sportboottauglichkeitsuntersuchung
 - FO-5102 – Ärztlicher Nachweis über das Ergebnis zur medizinischen
   Tauglichkeit eines Bewerbers/einer Bewerberin in der Sportbootschifffahrt
+- FO-5103 – Kostenübernahmevereinbarung Sportboottauglichkeitsuntersuchung
 
 ## Weitere interne Dokumente
 
 - PH-7100 – GOÄ-Handbuch *(geplant)*
-- FO-5101 – Anamnesebogen Sportboottauglichkeit *(geplant)*
 
 ---
 
@@ -703,5 +766,4 @@ Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 | Version | Datum | Änderung | Bearbeiter |
 |----------|-------|----------|------------|
 | 0.1 | 06.08.2026 | Erstdokument erstellt | Dr. Thomas Eckert |
-| 0.9 | 21.08.2026 | Medizinischer und organisatorischer Ablauf vervollständigt; Abgleich mit Tauglichkeitskriterien und Tauglichkeitsnachweis; Abrechnungskonzept GOÄ 1/8/70 ergänzt | Dr. Thomas Eckert |
-| 1.0 | 21.08.2026 | Leistungsblatt geprüft und freigegeben | Dr. Thomas Eckert |
+| 0.9 | 21.08.2026 | Medizinischer und organisatorischer Ablauf vervollständigt; Abgleich mit Tauglichkeitskriterien und Tauglichkeitsnachweis; Abrechnung GOÄ 1/8/70, Kosteninformation und Direktzahlung ergänzt | Dr. Thomas Eckert |
