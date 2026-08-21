@@ -33,12 +33,20 @@ markdown_extensions:
 
 nav:
   - Start: index.md
+
   - Leistungsblätter:
       - Übersicht: leistungsblaetter/index.md
+      - Gutachten und Bescheinigungen:
+          - Sportboottauglichkeitsuntersuchung: 5000_Gutachten/LB-5101-Sportboottauglichkeitsuntersuchung.md
+          - Medizinische Tauglichkeitskriterien: 5000_Gutachten/patienteninformationen/PI-5101-Medizinische-Tauglichkeitskriterien.pdf
+          - Ärztlicher Tauglichkeitsnachweis: 5000_Gutachten/formulare/FO-5102-Tauglichkeitsnachweis-Sportboot.pdf
+
   - GOÄ und Honorar:
       - Übersicht: goae/index.md
+
   - Qualitätsmanagement:
       - Übersicht: qm/index.md
+
   - Notfallmanagement:
       - Übersicht: notfall/index.md
 
