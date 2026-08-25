@@ -37,9 +37,12 @@ nav:
   - Leistungsblätter:
       - Übersicht: leistungsblaetter/index.md
       - Gutachten und Bescheinigungen:
-          - Sportboottauglichkeitsuntersuchung: 5000_Gutachten/LB-5101-Sportboottauglichkeitsuntersuchung.md
-          - Medizinische Tauglichkeitskriterien: 5000_Gutachten/patienteninformationen/PI-5101-Medizinische-Tauglichkeitskriterien.pdf
-          - Ärztlicher Tauglichkeitsnachweis: 5000_Gutachten/formulare/FO-5102-Tauglichkeitsnachweis-Sportboot.pdf
+          - Sportboottauglichkeit:
+              - LB-5101 – Sportboottauglichkeit: 5000_Gutachten/LB-5101-Sportboottauglichkeit.md
+              - FO-5101 – Sportboottauglichkeit – Anamnesebogen: 5000_Gutachten/formulare/FO-5101-Sportboottauglichkeit-Anamnesebogen.md
+              - FO-5102 – Sportboottauglichkeit – Tauglichkeitsnachweis: 5000_Gutachten/formulare/FO-5102-Sportboottauglichkeit-Tauglichkeitsnachweis.pdf
+              - FO-5103 – Sportboottauglichkeit – Kostenübernahmevereinbarung: 5000_Gutachten/formulare/FO-5103-Sportboottauglichkeit-Kostenuebernahmevereinbarung.md
+              - PI-5101 – Sportboottauglichkeit – Medizinische Tauglichkeitskriterien: 5000_Gutachten/patienteninformationen/PI-5101-Sportboottauglichkeit-Medizinische-Tauglichkeitskriterien.pdf
 
   - GOÄ und Honorar:
       - Übersicht: goae/index.md

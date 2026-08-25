@@ -1,6 +1,6 @@
 ---
 id: FO-5101
-title: Anamnesebogen Sportboottauglichkeitsuntersuchung
+title: Sportbootauglichkeit - Anamnesebogen
 version: 1.0
 status: freigegeben
 owner: Gemeinschaftspraxis Dres. Eckert
@@ -9,7 +9,7 @@ area: 5100
 created: 2026-08-21
 ---
 
-# FO-5101 – Anamnesebogen Sportboottauglichkeitsuntersuchung
+# FO-5101 – Sportbootauglichkeit - Anamnesebogen
 
 **Gemeinschaftspraxis Dres. Eckert**  
 Am Ringpark 1A · 01640 Coswig

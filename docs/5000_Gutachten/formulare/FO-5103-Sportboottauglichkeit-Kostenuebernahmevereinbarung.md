@@ -1,6 +1,6 @@
 ---
 id: FO-5103
-title: Kostenübernahmevereinbarung Sportboottauglichkeitsuntersuchung
+title: Sportboottauglichkeit - Kostenübernahmevereinbarung 
 version: 1.0
 status: freigegeben
 owner: Gemeinschaftspraxis Dres. Eckert
@@ -9,8 +9,7 @@ area: 5100
 created: 2026-08-21
 ---
 
-# FO-5103 – Kostenübernahmevereinbarung
-## Sportboottauglichkeitsuntersuchung
+# FO-5103 – Sportboottauglichkeit - Kostenübernahmevereinbarung
 
 **Gemeinschaftspraxis Dres. Eckert**  
 Am Ringpark 1A  

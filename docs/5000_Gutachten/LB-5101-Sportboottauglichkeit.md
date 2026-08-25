@@ -1,6 +1,6 @@
 ---
 id: LB-5101
-title: Sportboottauglichkeitsuntersuchung
+title: Sportboottauglichkeit
 version: 1.0
 status: freigegeben
 owner: Gemeinschaftspraxis Dres. Eckert
@@ -11,7 +11,7 @@ created: 2026-08-06
 updated: 2026-08-21
 ---
 
-# LB-5101 – Sportboottauglichkeitsuntersuchung
+# LB-5101 – Sportboottauglichkeit
 
 !!! abstract "Praxisstandard"
 
@@ -739,20 +739,11 @@ Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 ## Fachliche Grundlage
 
 - PI-5101 – Medizinische Tauglichkeitskriterien bei Gesundheitsstörungen
-- Anlage 2 der Sportbootführerscheinverordnung
-
-# 13. Verweise
-
-## Fachliche Grundlage
-
-- PI-5101 – Medizinische Tauglichkeitskriterien bei Gesundheitsstörungen
-- Anlage 2 der Sportbootführerscheinverordnung
 
 ## Formulare
 
 - FO-5101 – Anamnesebogen Sportboottauglichkeitsuntersuchung
-- FO-5102 – Ärztlicher Nachweis über das Ergebnis zur medizinischen
-  Tauglichkeit eines Bewerbers/einer Bewerberin in der Sportbootschifffahrt
+- FO-5102 – Ärztlicher Nachweis über die Tauglichkeit in der Sportbootschifffahrt
 - FO-5103 – Kostenübernahmevereinbarung Sportboottauglichkeitsuntersuchung
 
 ## Weitere interne Dokumente
@@ -766,4 +757,4 @@ Folgende Situationen können zu Rückfragen oder Verzögerungen führen:
 | Version | Datum | Änderung | Bearbeiter |
 |----------|-------|----------|------------|
 | 0.1 | 06.08.2026 | Erstdokument erstellt | Dr. Thomas Eckert |
-| 0.9 | 21.08.2026 | Medizinischer und organisatorischer Ablauf vervollständigt; Abgleich mit Tauglichkeitskriterien und Tauglichkeitsnachweis; Abrechnung GOÄ 1/8/70, Kosteninformation und Direktzahlung ergänzt | Dr. Thomas Eckert |
+| 1.0 | 21.08.2026 | Medizinischer und organisatorischer Ablauf vervollständigt; Abgleich mit Tauglichkeitskriterien und Tauglichkeitsnachweis; Abrechnung GOÄ 1/8/70, Kosteninformation und Direktzahlung ergänzt | Dr. Thomas Eckert |
