@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>FO-5103 - Sportboottauglichkeit - Kostenübernahmevereinbarung</title>
+<style>
+@page { size: A4; margin: 16mm 18mm 16mm 18mm; }
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height: 1.35; color: #111; margin: 0; }
+.header { border-bottom: 2px solid #333; padding-bottom: 7px; margin-bottom: 14px; }
+.practice { font-size: 10pt; }
+h1 { font-size: 17pt; margin: 5px 0 3px; }
+h2 { font-size: 12pt; margin: 16px 0 7px; border-bottom: 1px solid #bbb; padding-bottom: 3px; }
+.meta { font-size: 9pt; color: #444; }
+.patient { width: 100%; border-collapse: collapse; margin: 10px 0 12px; }
+.patient td { border: 1px solid #aaa; padding: 6px 8px; vertical-align: top; }
+.label { width: 23%; font-weight: bold; background: #f4f4f4; }
+.costs { width: 100%; border-collapse: collapse; margin: 10px 0; }
+.costs th, .costs td { border: 1px solid #999; padding: 6px 7px; }
+.costs th { background: #eee; }
+.right { text-align: right; }
+.total { font-weight: bold; }
+.box { border: 1px solid #aaa; padding: 9px 11px; margin: 10px 0; }
+.signature { margin-top: 26px; width: 100%; }
+.signature td { width: 50%; vertical-align: bottom; padding-top: 28px; }
+.small { font-size: 9pt; color: #444; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="practice"><strong>Gemeinschaftspraxis Dres. Eckert</strong> &middot; Am Ringpark 1A &middot; 01640 Coswig</div>
+  <h1>FO-5103 - Sportboottauglichkeit - Kostenübernahmevereinbarung</h1>
+  <div class="meta">Version 1.0 &middot; Datum: {{DATUM}}</div>
+</div>
+
+<h2>Patient/in</h2>
+<table class="patient">
+<tr><td class="label">Name</td><td>{{NACHNAME}}</td><td class="label">Vorname</td><td>{{VORNAME}}</td></tr>
+<tr><td class="label">Geburtsdatum</td><td>{{GEBURTSDATUM}}</td><td class="label">Telefon</td><td>{{TELEFON}}</td></tr>
+<tr><td class="label">Anschrift</td><td colspan="3">{{STRASSE}}<br>{{PLZORT}}</td></tr>
+<tr><td class="label">E-Mail</td><td colspan="3">{{EMAIL}}</td></tr>
+</table>
+
+<h2>Vereinbarung</h2>
+<p>Ich wünsche die Durchführung einer ärztlichen <strong>Sportboottauglichkeitsuntersuchung</strong> einschließlich Ausstellung des ärztlichen Tauglichkeitsnachweises.</p>
+
+<p>Mir ist bekannt, dass es sich hierbei um eine <strong>privatärztliche Leistung</strong> handelt. Die Abrechnung erfolgt nach der Gebührenordnung für Ärzte (GOÄ).</p>
+
+<table class="costs">
+<tr><th>GOÄ-Nr.</th><th>Leistung</th><th>Faktor</th><th class="right">Betrag</th></tr>
+<tr><td>1</td><td>Beratung</td><td>3,387</td><td class="right">15,79 €</td></tr>
+<tr><td>8</td><td>Untersuchung zur Erhebung des Ganzkörperstatus</td><td>3,386</td><td class="right">51,31 €</td></tr>
+<tr><td>70</td><td>Kurze Bescheinigung / kurzes Zeugnis</td><td>3,388</td><td class="right">7,90 €</td></tr>
+<tr class="total"><td colspan="3">Gesamtbetrag</td><td class="right">75,00 €</td></tr>
+</table>
+
+<h2>Kostenübernahme und Zahlung</h2>
+<div class="box">
+<p>Ich wurde vor Beginn der Untersuchung über die Kosten informiert.</p>
+<p>Ich verpflichte mich, den Rechnungsbetrag von <strong>75,00 € unmittelbar nach Abschluss der Untersuchung in der Praxis</strong> zu bezahlen.</p>
+<p>Die Zahlung ist per <strong>Barzahlung oder Kartenzahlung</strong> möglich.</p>
+</div>
+
+<p>Mir ist bekannt, dass eine mögliche Erstattung durch eine private Krankenversicherung, Beihilfestelle oder einen sonstigen Kostenträger von dieser Vereinbarung unabhängig ist.</p>
+
+<p>Eine vollständige oder teilweise Nichterstattung durch einen Kostenträger berührt meine Verpflichtung zur Zahlung des Rechnungsbetrages nicht.</p>
+
+<h2>Zusätzliche medizinische Leistungen</h2>
+<p>Sollten aufgrund auffälliger Befunde oder besonderer medizinischer Umstände zusätzliche Untersuchungen oder Leistungen erforderlich sein, sind diese nicht Bestandteil des oben genannten Betrages von 75,00 €.</p>
+
+<p>Über zusätzliche kostenpflichtige Leistungen werde ich vor deren Durchführung informiert.</p>
+
+<h2>Bestätigung</h2>
+<p>Ich habe die vorstehenden Informationen gelesen und hatte Gelegenheit, Fragen zu stellen. Ich erkläre mich mit der Durchführung der Sportboottauglichkeitsuntersuchung und der Übernahme der oben genannten Kosten einverstanden.</p>
+
+<table class="signature">
+<tr>
+<td>Coswig, den __________________________</td>
+<td>Unterschrift Patient/in ______________________________</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-top:34px;">Unterschrift Praxis _________________________________</td>
+</tr>
+</table>
+
+<p class="small">FO-5103 - Sportboottauglichkeit - Kostenübernahmevereinbarung &middot; Version 1.0</p>
+</body>
+</html>

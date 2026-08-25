@@ -1,0 +1,125 @@
+﻿<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>FO-5101 - Sportboottauglichkeit - Anamnesebogen</title>
+<style>
+@page { size: A4; margin: 14mm 16mm 14mm 16mm; }
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt; line-height: 1.25; color: #111; margin: 0; }
+.header { border-bottom: 2px solid #333; padding-bottom: 6px; margin-bottom: 10px; }
+.practice { font-size: 10pt; }
+h1 { font-size: 17pt; margin: 5px 0 3px; }
+h2 { font-size: 12pt; margin: 12px 0 5px; border-bottom: 1px solid #bbb; padding-bottom: 2px; }
+.meta { font-size: 9pt; color: #444; }
+.patient { width: 100%; border-collapse: collapse; margin: 8px 0; }
+.patient td { border: 1px solid #aaa; padding: 5px 7px; vertical-align: top; }
+.label { width: 23%; font-weight: bold; background: #f4f4f4; }
+.check { font-family: Arial, sans-serif; }
+table.questions { width: 100%; border-collapse: collapse; margin-top: 5px; }
+.questions th, .questions td { border: 1px solid #999; padding: 4px 5px; vertical-align: top; }
+.questions th { background: #eee; font-size: 9.5pt; }
+.small { font-size: 9pt; }
+.lines { min-height: 33px; border-bottom: 1px solid #999; margin-bottom: 4px; }
+.signature { margin-top: 14px; width: 100%; }
+.signature td { width: 50%; padding-top: 20px; }
+.pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="practice"><strong>Gemeinschaftspraxis Dres. Eckert</strong> &middot; Am Ringpark 1A &middot; 01640 Coswig</div>
+  <h1>FO-5101 - Sportboottauglichkeit - Anamnesebogen</h1>
+  <div class="meta">Version 1.0 &middot; Datum: {{DATUM}}</div>
+</div>
+
+<table class="patient">
+<tr><td class="label">Name</td><td>{{NACHNAME}}</td><td class="label">Vorname</td><td>{{VORNAME}}</td></tr>
+<tr><td class="label">Geburtsdatum</td><td>{{GEBURTSDATUM}}</td><td class="label">Telefon</td><td>{{TELEFON}}</td></tr>
+<tr><td class="label">Anschrift</td><td colspan="3">{{STRASSE}}<br>{{PLZORT}}</td></tr>
+<tr><td class="label">E-Mail</td><td colspan="3">{{EMAIL}}</td></tr>
+</table>
+
+<h2>Aktuelle gesundheitliche Situation</h2>
+<p>Bestehen derzeit Erkrankungen oder Beschwerden? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+<p>Befinden Sie sich derzeit in regelmäßiger ärztlicher Behandlung? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+
+<h2>Vorerkrankungen</h2>
+<table class="questions">
+<tr><th>Erkrankung / Beschwerde</th><th>Nein</th><th>Ja</th><th>Bemerkung</th></tr>
+<tr><td>Herz-Kreislauf-Erkrankung</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Bluthochdruck</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Herzrhythmusstörungen</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Bewusstlosigkeit / Synkopen</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Schwindel / Gleichgewichtsstörungen</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Epilepsie / Krampfanfälle</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Schlaganfall / neurologische Erkrankung</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Diabetes mellitus</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Unterzuckerungen / Hypoglykämien</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Schlafapnoe</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Narkolepsie / ausgeprägte Tagesschläfrigkeit</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Asthma / chronische Atemwegserkrankung</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Psychische Erkrankung</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Sehbeeinträchtigung / Doppelbilder / Gesichtsfeld</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Hörminderung</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+<tr><td>Erkrankung / Einschränkung des Bewegungsapparates</td><td>&#9744;</td><td>&#9744;</td><td></td></tr>
+</table>
+
+<div class="pagebreak"></div>
+
+<div class="header">
+  <div class="practice"><strong>{{VORNAME}} {{NACHNAME}}</strong> &middot; geb. {{GEBURTSDATUM}}</div>
+  <h1>FO-5101 - Anamnesebogen - Fortsetzung</h1>
+</div>
+
+<h2>Medikamente</h2>
+<p>Nehmen Sie regelmäßig oder bei Bedarf Medikamente ein? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<table class="questions">
+<tr><th>Medikament</th><th>Dosierung</th><th>Grund der Einnahme</th></tr>
+<tr><td style="height:24px"></td><td></td><td></td></tr>
+<tr><td style="height:24px"></td><td></td><td></td></tr>
+<tr><td style="height:24px"></td><td></td><td></td></tr>
+<tr><td style="height:24px"></td><td></td><td></td></tr>
+</table>
+<p>Aktueller Medikamentenplan liegt vor: &nbsp; &#9744; Ja &nbsp; &#9744; Nein</p>
+
+<h2>Alkohol und andere Substanzen</h2>
+<p>Besteht oder bestand eine Abhängigkeit von Alkohol, Medikamenten oder anderen Substanzen? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+
+<h2>Krankenhausbehandlungen und Operationen</h2>
+<p>Gab es relevante Krankenhausbehandlungen oder Operationen? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+<div class="lines"></div>
+
+<h2>Sehvermögen</h2>
+<p>Sehhilfe: &nbsp; &#9744; keine &nbsp; &#9744; Brille &nbsp; &#9744; Kontaktlinsen</p>
+<p>Bekannte Augenerkrankung? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+<p>Nachweis einer anerkannten Sehteststelle liegt vor: &nbsp; &#9744; Ja &nbsp; &#9744; Nein</p>
+
+<h2>Hörvermögen</h2>
+<p>Bekannte Hörminderung? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<p>Hörgerät? &nbsp; &#9744; Nein &nbsp; &#9744; Ja</p>
+<p>Externer Hörnachweis liegt vor: &nbsp; &#9744; Ja &nbsp; &#9744; Nein</p>
+<p class="small">Falls kein ausreichender externer Nachweis vorliegt, erfolgt die Hörprüfung im Rahmen der Untersuchung in der Praxis.</p>
+
+<h2>Weitere Angaben</h2>
+<p>Bestehen weitere gesundheitliche Einschränkungen, die Wahrnehmung, Reaktionsfähigkeit, Beweglichkeit oder die sichere Führung eines Sportbootes beeinträchtigen könnten?</p>
+<p>&#9744; Nein &nbsp; &#9744; Ja</p>
+<div class="lines"></div>
+<div class="lines"></div>
+
+<h2>Erklärung</h2>
+<p>Ich bestätige, dass ich die vorstehenden Fragen vollständig und nach bestem Wissen beantwortet habe. Mir ist bekannt, dass für die ärztliche Beurteilung der medizinischen Tauglichkeit vollständige und wahrheitsgemäße Angaben erforderlich sind.</p>
+
+<table class="signature">
+<tr>
+<td>Coswig, den __________________________</td>
+<td>Unterschrift Patient/in ______________________________</td>
+</tr>
+</table>
+</body>
+</html>
