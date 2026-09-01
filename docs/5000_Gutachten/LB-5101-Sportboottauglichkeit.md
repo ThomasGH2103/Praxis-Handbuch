@@ -11,6 +11,13 @@ created: 2026-08-06
 updated: 2026-08-21
 ---
 
+### Formularhelfer
+
+<div id="praxis-formularhelfer"></div>
+
+Der Status wird immer für den Arbeitsplatz angezeigt, an dem das Praxis-Wiki
+gerade geöffnet ist.
+
 # LB-5101 – Sportboottauglichkeit
 
 !!! abstract "Praxisstandard"
@@ -35,6 +42,29 @@ updated: 2026-08-21
 | Regelhonorar | 75,00 € |
 | Zahlung | unmittelbar nach Abschluss vor Ort |
 | Zahlungsarten | Barzahlung oder Kartenzahlung |
+
+---
+
+## Schnellzugriff – Formulare
+
+!!! tip "Formulare für den aktuell geöffneten PVS-Patienten"
+
+    Vor dem Aufruf muss der richtige Patient im PVS geöffnet sein.
+
+    Die Patientendaten werden automatisch aus der lokalen BDT-Datei des
+    jeweiligen Arbeitsplatzes übernommen.
+
+    [FO-5101 – Anamnesebogen öffnen](http://127.0.0.1:8765/FO-5101){ .md-button .md-button--primary }
+
+    [FO-5103 – Kostenübernahmevereinbarung öffnen](http://127.0.0.1:8765/FO-5103){ .md-button .md-button--primary }
+
+!!! warning "Patient vor dem Druck prüfen"
+
+    Vor der Formularerstellung werden Name und Geburtsdatum des aktuell
+    im PVS geöffneten Patienten nochmals angezeigt.
+
+    Das Formular erst nach Prüfung dieser Angaben öffnen und drucken.
+
 
 ---
 

@@ -56,4 +56,10 @@ nav:
 extra:
   generator: false
 
+extra_javascript:
+  - assets/praxis-formularhelfer.js
+
+extra_css:
+  - assets/praxis-formularhelfer.css
+
 copyright: Gemeinschaftspraxis Dres. Eckert · Am Ringpark 1A · 01640 Coswig

@@ -1,0 +1,7 @@
+.pfh-card{border:1px solid var(--md-default-fg-color--lightest);border-radius:.35rem;padding:1rem 1.1rem;margin:1rem 0}
+.pfh-title{font-weight:700;margin-bottom:.35rem}
+.pfh-patient{font-size:1.2rem;font-weight:700}
+.pfh-ok{color:#176b32;font-weight:700;margin:.6rem 0}
+.pfh-warn{color:#a12622;font-weight:700;margin:.6rem 0}
+.pfh-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin:.8rem 0}
+.pfh-small{font-size:.8rem;opacity:.7;margin-top:.6rem}

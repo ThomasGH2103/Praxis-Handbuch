@@ -9,6 +9,10 @@ area: 5100
 created: 2026-08-21
 ---
 
+!!! tip "Druckversion"
+
+    [Mit aktuellem PVS-Patienten öffnen](http://127.0.0.1:8765/FO-5103){ .md-button .md-button--primary }
+
 # FO-5103 – Sportboottauglichkeit - Kostenübernahmevereinbarung
 
 **Gemeinschaftspraxis Dres. Eckert**  
