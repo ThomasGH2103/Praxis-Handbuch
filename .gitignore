@@ -5,3 +5,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+# Praxis-Formularhelfer
+tools/Praxis-Formularhelfer/Archiv/
+tools/Praxis-Formularhelfer/*.zip
+tools/Praxis-Formularhelfer/*.log
+tools/Praxis-Formularhelfer/*.tmp
